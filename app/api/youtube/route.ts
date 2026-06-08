@@ -1,7 +1,7 @@
 export async function GET() {
   try {
-    const YOUTUBE_API_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
-    const CHANNEL_ID = process.env.NEXT_PUBLIC_YOUTUBE_CHANNEL_ID
+    const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY
+    const CHANNEL_ID = process.env.YOUTUBE_CHANNEL_ID
 
     if (!YOUTUBE_API_KEY || !CHANNEL_ID) {
       return Response.json(
@@ -27,7 +27,7 @@ export async function GET() {
 
     // Fetch latest videos from uploads playlist
     const videosResponse = await fetch(
-      `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&playlistId=${uploadsPlaylistId}&maxResults=12&key=${YOUTUBE_API_KEY}`
+      `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&playlistId=${uploadsPlaylistId}&maxResults=24&key=${YOUTUBE_API_KEY}`
     )
     const videosData = await videosResponse.json()
 
