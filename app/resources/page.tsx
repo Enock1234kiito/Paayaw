@@ -4,10 +4,10 @@ import Link from 'next/link'
 export const metadata = { title: 'Resources – Gideon Peprah Ministries' }
 
 const books = [
-  { title: 'Positioned for His Return', category: 'Books', img: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&q=80', desc: 'A powerful teaching on how the Body of Christ can be prepared for the second coming of Jesus.' },
-  { title: 'The Fire of Revival', category: 'Books', img: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&q=80', desc: 'Stirring your heart for a fresh move of God in your life, family, and nation.' },
-  { title: 'Kingdom Partnerships', category: 'Books', img: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&q=80', desc: 'Unlocking the power of covenant relationships in ministry and in the Kingdom of God.' },
-  { title: 'Daily Strength Devotional', category: 'Devotionals', img: 'https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=400&q=80', desc: '365 days of Spirit-filled devotions to fuel your walk with God every single day.' },
+  { title: 'Positioned for His Return', category: 'Books', img: '/images/V_56.jpg', desc: 'A powerful teaching on how the Body of Christ can be prepared for the second coming of Jesus.' },
+  { title: 'The Fire of Revival', category: 'Books', img: '/images/V_88.jpg', desc: 'Stirring your heart for a fresh move of God in your life, family, and nation.' },
+  { title: 'Kingdom Partnerships', category: 'Books', img: '/images/V_70.jpg', desc: 'Unlocking the power of covenant relationships in ministry and in the Kingdom of God.' },
+  { title: 'Daily Strength Devotional', category: 'Devotionals', img: '/images/V_190.jpg', desc: '365 days of Spirit-filled devotions to fuel your walk with God every single day.' },
 ]
 
 const sermons = [

@@ -4,10 +4,10 @@ import Image from 'next/image'
 export const metadata = { title: 'About Us – Gideon Peprah Ministries' }
 
 const leaders = [
-  { name: 'Elder Samuel Asante', role: 'Chairman, Governing Council', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80' },
-  { name: 'Mrs. Grace Boateng', role: 'Vice Chair', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=80' },
-  { name: 'Deacon James Mensah', role: 'Secretary', img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&q=80' },
-  { name: 'Dr. Abena Osei', role: 'Treasurer', img: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=300&q=80' },
+  { name: 'Elder Samuel Asante', role: 'Chairman, Governing Council', img: '/images/V_103.jpg' },
+  { name: 'Mrs. Grace Boateng', role: 'Vice Chair', img: '/images/V_106.jpg' },
+  { name: 'Deacon James Mensah', role: 'Secretary', img: '/images/V_107.jpg' },
+  { name: 'Dr. Abena Osei', role: 'Treasurer', img: '/images/V_108.jpg' },
 ]
 
 export default function AboutPage() {
@@ -40,15 +40,18 @@ export default function AboutPage() {
               <p>Today, GPM stands as a beacon of hope, equipping and empowering believers to live out their faith in every sphere of society.</p>
             </div>
           </div>
-          <div className="relative">
-            <div className="absolute -inset-3 rounded-xl z-0" style={{ border: '3px solid var(--gold)', opacity: 0.6 }} />
+          <div className="relative flex justify-center">
+            <div
+              className="absolute rounded-xl z-0"
+              style={{ border: '3px solid var(--gold)', opacity: 0.6, inset: '-12px' }}
+            />
             <Image
-              src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=700&q=80"
-              alt="GPM History"
-              width={700}
-              height={480}
-              className="relative z-10 w-full rounded-xl shadow-2xl object-cover"
-              style={{ maxHeight: '460px' }}
+              src="/images/Pastor.jpg"
+              alt="Pastor Gideon Peprah"
+              width={914}
+              height={1280}
+              className="relative z-10 w-full max-w-md rounded-xl shadow-2xl object-cover object-top"
+              style={{ aspectRatio: '3/4' }}
             />
           </div>
         </div>
@@ -86,14 +89,14 @@ export default function AboutPage() {
           <div className="gold-underline" />
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="relative">
+          <div className="relative flex justify-center">
             <Image
-              src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=700&q=80"
+              src="/images/Pastor2.jpg"
               alt="Pastor Gideon Peprah"
-              width={600}
-              height={700}
-              className="w-full rounded-xl shadow-2xl object-cover mx-auto"
-              style={{ maxHeight: '520px' }}
+              width={914}
+              height={1280}
+              className="w-full max-w-md rounded-xl shadow-2xl object-cover object-top mx-auto"
+              style={{ aspectRatio: '3/4' }}
             />
           </div>
           <div>

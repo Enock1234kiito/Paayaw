@@ -8,25 +8,25 @@ const ministries = [
     icon: '📖',
     title: 'Evangelism & Church Planting',
     body: 'We are actively planting churches and conducting evangelism campaigns in unreached communities across the nation and beyond, bringing the saving message of Jesus Christ to every corner.',
-    img: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=700&q=80',
+    img: '/images/V_24.jpg',
   },
   {
     icon: '🏫',
     title: 'Education & Youth Development',
     body: 'GPM invests in the next generation through educational scholarships, school renovation projects, and youth discipleship programs that equip young people for life and ministry.',
-    img: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700&q=80',
+    img: '/images/V_28.jpg',
   },
   {
     icon: '🤲',
     title: 'Community Outreach',
     body: 'Through our "Remember Them" initiative, we reach out to the vulnerable, the poor, and the marginalized with food, medical care, and the love of Christ in practical action.',
-    img: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=700&q=80',
+    img: '/images/V_189.jpg',
   },
   {
     icon: '🎙️',
     title: 'Teaching & Discipleship',
     body: 'We produce books, audio messages, and video teachings that build up believers in their faith, equipping them to live for God in every area of their lives.',
-    img: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=700&q=80',
+    img: '/images/V_187.jpg',
   },
 ]
 
